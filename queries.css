@@ -1,0 +1,161 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .navigation {
+    padding: 2.4rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation-option-box,
+  .nav-login-box {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .menu-close-box {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .close-menu {
+    width: 2.8rem;
+    margin: 2.4rem;
+    margin-left: auto;
+  }
+
+  .mobile-nav-bar-blur {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20, 20, 20, 0.753);
+    z-index: 999;
+  }
+
+  .mobile-nav-bar {
+    display: block;
+    background-color: hsl(0, 0%, 98%);
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    font-size: 1.4rem;
+    z-index: 9999;
+    right: 0;
+  }
+
+  .mob-nav-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .mob-navigation-option-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-top: 1rem;
+    padding-left: 2.4rem;
+  }
+
+  .mob-nav-login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .mob-nav-drop {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .drop-down-img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .navigation-option {
+    display: block;
+  }
+
+  .register:link,
+  .register:visited {
+    padding: 1rem 7rem;
+  }
+
+  .section-hero {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100vw;
+    gap: 6.4rem;
+    position: relative;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-mobile {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .hero-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+
+  .hero-para {
+    font-size: 1.6rem;
+  }
+
+  .btn-hero {
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    height: 4.8rem;
+    width: 13rem;
+  }
+
+  .other-logo-box {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 1.8rem auto 1.8rem;
+    bottom: -5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .other-logo {
+    height: 2rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+}
