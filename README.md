@@ -16,22 +16,26 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-## Overview
-
-### The challenge
-
 ### Screenshot
 
 ![](screenshot/desktop.png)
-![](screenshot/desktop-menu-company.png)
 ![](screenshot/desktop-menu-features.png)
+![](screenshot/desktop-menu-company.png)
+![](screenshot/mobile.png)
+![](screenshot/mobile-menu.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://acgeoffrey.github.io/frontend-mentor-introsection-dropdown/)
-- Live Site URL: [Add live site URL here](https://acgeoffrey.github.io/frontend-mentor-introsection-dropdown/)
+- Live Site URL: [https://acgeoffrey.github.io/frontend-mentor-introsection-dropdown/]
 
 ## My process
+
+Desktop first workflow (24inch Monitor, 1920x1080 px)
+
+- Built the navigation.
+- Built the hero section.
+
+Set media queries: max-width: 544px for Mobile version
 
 ### Built with
 
@@ -43,7 +47,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### What I learned
 
-Got more practice in CSS Flexbox
+Got more practice in CSS Flexbox.
 
 ## Author
 

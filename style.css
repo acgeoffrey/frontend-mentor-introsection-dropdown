@@ -115,6 +115,10 @@ body {
   font-weight: 700;
 }
 
+.heading-primary span {
+  display: block;
+}
+
 .hero-para {
   font-size: 1.8rem;
   color: hsl(0, 0%, 41%);
@@ -217,4 +221,12 @@ body {
 
 .hidden {
   display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

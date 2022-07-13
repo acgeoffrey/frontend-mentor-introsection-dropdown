@@ -66,8 +66,10 @@ deskCompanyEl.addEventListener("click", function () {
 
 menuOpenEl.addEventListener("click", function () {
   document.querySelector(".mobile-nav-bar-blur").classList.toggle("hidden");
+  document.querySelector("body").classList.add("overflow");
 });
 
 menuCloseEL.addEventListener("click", function () {
   document.querySelector(".mobile-nav-bar-blur").classList.toggle("hidden");
+  document.querySelector("body").classList.remove("overflow");
 });
