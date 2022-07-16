@@ -4,6 +4,8 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ## Table of contents
 
+## Edited content
+
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
